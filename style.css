@@ -17,7 +17,8 @@ body {
 
 .header {
     display: flex;
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
     justify-content: space-between;
     margin-top: 20px;
 }
@@ -36,9 +37,12 @@ body {
 }
 
 .page-intro {
-    width: 1000px;
+    width: 100%;
+    max-width: 1040px;
     display: flex;
     margin: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .intro {
@@ -49,6 +53,7 @@ body {
 .intro,
 .img-placeholder {
     width: 500px;
+    margin: 5px;
 }
 
 .img-placeholder {
@@ -105,14 +110,17 @@ body {
 }
 .grid {
     display: flex;
-    width: 900px;
+    width: 100%;
+    max-width: 900px;
     justify-content: space-around;
     margin-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 .grid-item {
     width: 150px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .image-placeholder {
